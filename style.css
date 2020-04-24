@@ -2,35 +2,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-.wrapper {
-    display: flex;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-}
-
-.wrapper .section {
-    margin-top: 54px;
-    padding-top: 30px;
-    max-width: 975px;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-}
-
-.wrapper .section .content {
-    float: left;
-    margin-right: 28px;
-    max-width: 614px;
-    width: 100%;
-    align-items: stretch;
-    border: 0 solid #000;
-    display: flex;
-    flex-shrink: 0;
-}
-
-.wrapper .section .sidebar {
-    
+p {
+    font-size: 14px;
 }
