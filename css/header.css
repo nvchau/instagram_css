@@ -1,3 +1,98 @@
-.header .menu {
-    list-style: none;
+.header {
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.header .main-header {
+    height: 53px;
+    padding: 0 20px;
+    list-style: none;
+    width: 100%;
+    max-width: 975px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .main-header .logo {
+    flex: 1 9999 0%;
+    align-items: stretch;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.header .main-header .logo img {
+    margin-top: 7px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.header .main-header .search {
+    flex: 0 1 auto;
+    min-width: 125px;
+    width: 215px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.header .main-header .search .icon{
+    font-size: 13px;
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 5px;
+    color: #4f5b6693;
+}
+
+.header .main-header .search input {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    border: solid 1px rgba(var(--b6a,219,219,219),1);
+    border-radius: 3px;
+    color: rgba(var(--i1d,38,38,38),1);
+    outline: 0;
+    padding: 3px 10px 3px 40px;
+    background: rgba(var(--b3f,250,250,250),1);
+    /* font: 400 13.3333px Arial; */
+    /* line-height: 18px; */
+}
+
+.header .main-header .search input::-webkit-input-placeholder {
+    font-size: 13px;
+}
+
+.header .main-header .menu {
+    flex: 1 0 0%;
+    align-content: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .main-header .menu .main-menu {
+    align-content: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 24px;
+}
+
+.header .main-header .menu .main-menu .menu-item{
+    margin-left: 22px;
+}
+
+.header .main-header .menu .main-menu .menu-item a.avatar img{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+}
+
+
+
