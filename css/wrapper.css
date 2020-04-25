@@ -28,5 +28,13 @@
 }
 
 .wrapper .section .sidebar {
-    
+    width: 100%;
+    max-width: 325px;
+    position: fixed;
+    top: 88px;
+    left: 1110px;
+}
+
+.sidebar-hidden {
+    width: 100%;
 }
