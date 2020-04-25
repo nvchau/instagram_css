@@ -1,0 +1,244 @@
+.wrapper .section .sidebar .sidebar-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .section .sidebar .sidebar-header .sidebar-avatar img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.wrapper .section .sidebar .sidebar-header .sidebar-user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.wrapper .section .sidebar .sidebar-header .sidebar-user-info .sidebar-user-name {
+    margin: 2px 0;
+}
+
+.wrapper .section .sidebar .sidebar-header .sidebar-user-info .sidebar-user-name a {
+    text-decoration: none;
+    color: #262626c7;
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.wrapper .section .sidebar .sidebar-header .sidebar-user-info .sidebar-name {
+    color: #26262667;
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+.wrapper .section .sidebar .sidebar-story {
+    width: 100%;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .section .sidebar .sidebar-story .sidebar-story-header {
+    padding: 4px 16px;
+    margin-top: 12px;
+}
+
+.wrapper .section .sidebar .sidebar-story .sidebar-story-header b {
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 14px;
+    line-height: 18px;
+    margin: -3px 0 -4px;
+}
+
+.wrapper .section .sidebar .sidebar-story .sidebar-story-header a {
+    text-decoration: none;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+    float: right;
+}
+
+.wrapper .section .sidebar .sidebar-story .overflow-story {
+    height: 182px;
+    overflow: hidden auto;
+    margin-left: 16px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex: 0 0 auto;
+}
+
+.wrapper .section .sidebar .sidebar-story .overflow-story .story-item {
+    height: 52px;
+    margin-bottom: 10px;
+}
+
+.wrapper .section .sidebar .sidebar-story .overflow-story .story-item button {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    padding-left: 5px;
+    padding-right: 16px;
+    text-align: left;
+    width: 100%;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: rgba(var(--i1d,38,38,38),1);
+}
+
+.wrapper .section .sidebar .sidebar-story .overflow-story .story-item button .avatar-story {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #b40f5caf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper .section .sidebar .sidebar-story .overflow-story .story-item button .avatar-story .white-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+
+.wrapper .section .sidebar .sidebar-story .overflow-story .story-item button .avatar-story img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.wrapper .section .sidebar .sidebar-story .overflow-story .story-item button .story-info {
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .section .sidebar .sidebar-story .overflow-story .story-item button .story-info .story-user-name a {
+    text-decoration: none;
+    color: #262626dc;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.wrapper .section .sidebar .sidebar-story .overflow-story .story-item button .story-info .story-time {
+    color: #26262667;
+    font-size: 10px;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .sidebar-friend-suggestion-header {
+    padding: 4px 16px;
+    margin-top: 12px;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .sidebar-friend-suggestion-header b {
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 14px;
+    line-height: 18px;
+    margin: -3px 0 -4px;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .sidebar-friend-suggestion-header a {
+    text-decoration: none;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+    float: right;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion {
+    width: 100%;
+    margin-top: 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .friend-suggestion-list {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .friend-suggestion-list .fs-item {
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .friend-suggestion-list .fs-item .avatar-fs-item {
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .friend-suggestion-list .fs-item .avatar-fs-item img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .friend-suggestion-list .fs-item .fs-item-info {
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .friend-suggestion-list .fs-item .fs-item-info .fs-item-user-name a {
+    text-decoration: none;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .friend-suggestion-list .fs-item .fs-item-info .fs-item-social {
+    color: #26262667;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .friend-suggestion-list .fs-item .fs-item-follow-button {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wrapper .section .sidebar .sidebar-friend-suggestion .friend-suggestion-list .fs-item .fs-item-follow-button a {
+    text-decoration: none;
+    color: rgba(var(--d69,0,149,246),1);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.wrapper .section .sidebar .sidebar-copy-right {
+    margin-top: 14px;
+    color: #c7c7c7;
+    font-size: 11px;
+}
