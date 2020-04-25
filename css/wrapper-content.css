@@ -1,5 +1,7 @@
 .wrapper .section .content {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .wrapper .section .content article {
